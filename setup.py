@@ -2,11 +2,11 @@ import setuptools
 
 if __name__ == "__main__":
     setuptools.setup(
-        name='friendly_computing_machine',
+        name='HF_SCF',
         version="0.1.1",
-        description='A starting template for Python programs',
-        author='Daniel Smith',
-        author_email='dgasmith@vt.edu',
+        description='A toy code for calculating the energy of H2O',
+        author='Zhiwei DING',
+        author_email='dingzw@mit.edu',
         url="https://github.com/dgasmith/friendly-computing-machine",
         license='BSD-3C',
         packages=setuptools.find_packages(),
