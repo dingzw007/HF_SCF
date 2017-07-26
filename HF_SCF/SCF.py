@@ -57,7 +57,7 @@ def get_energy(basis):
     Cocc = C[:,:nel]
     D = Cocc @ Cocc.T
     E_old=0.0
-    for iteration in range(5):
+    for iteration in range(25):
 
     #raise Exception("Breakpoint")
     # F = H + 2 * g_pqrs Drs-g_prqs Drs
