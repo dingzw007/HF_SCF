@@ -7,8 +7,6 @@ sudo: false
 
 matrix:
   include:
-    - python: 2.7
-    - python: 3.5
     - python: 3.6
 
 before_install:
@@ -22,6 +20,7 @@ before_install:
   - pip install numpy
   - pip install codecov
   - pip install -e .
+  - pip install psi4
 
 script:
   - py.test -v --cov=./
