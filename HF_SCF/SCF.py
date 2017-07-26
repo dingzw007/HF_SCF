@@ -1,4 +1,4 @@
-def get_energy(basis)
+def get_energy(basis):
     import numpy as np
     import psi4
 

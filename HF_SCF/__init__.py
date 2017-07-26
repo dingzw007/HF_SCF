@@ -1,6 +1,6 @@
 """
- This is the base file of the fridenly-computing-machine!
+ This is the base file of HF_SCF!
 """
 
 #from . import math
-from .math import mult
+from .SCF import get_energy
